@@ -1,19 +1,17 @@
 import React from "react";
+import { Link } from "react-router";
 
 function MyProjects() {
   return (
-    <div>
+    <div id="projects">
       <h2 className="font-heading font-semibold text-[50px] leading-tight pt-10 text-center ">
         My
         <span className="text-neongreen "> Projects</span>
       </h2>
 
-      <div className="grid grid-cols-3 gap-5 mb-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 my-10">
         <div className="bg-white/5 mt-5">
-          <a
-            href="#"
-            className="block rounded-lg  p-6 shadow-xs shadow-indigo-100"
-          >
+          <div className="block rounded-lg  p-6 shadow-xs shadow-indigo-100">
             <img
               alt=""
               src="https://i.ibb.co.com/XxYgyn55/equi-sports.png"
@@ -22,9 +20,9 @@ function MyProjects() {
 
             <div className="mt-5 text-center">
               <p className="text-2xl font-bold font-sub-heading">Equi Sport</p>
-              <a
+              <Link
                 className="group flex items-center justify-center gap-4 rounded-lg px-5 py-3 transition-colors hover:bg-transparent "
-                href="#"
+                to="/projects/equi"
               >
                 <span className="font-medium text-neongreen transition-colors group-hover:text-neongreen">
                   Find out more
@@ -46,16 +44,13 @@ function MyProjects() {
                     />
                   </svg>
                 </span>
-              </a>
+              </Link>
             </div>
-          </a>
+          </div>
         </div>
         {/* project 2 */}
         <div className="bg-white/5 mt-5">
-          <a
-            href="#"
-            className="block rounded-lg  p-6 shadow-xs shadow-indigo-100"
-          >
+          <div className="block rounded-lg  p-6 shadow-xs shadow-indigo-100">
             <img
               alt=""
               src="https://i.ibb.co.com/Fb2qJjCw/express-erp.png"
@@ -64,9 +59,9 @@ function MyProjects() {
 
             <div className="mt-5 text-center">
               <p className="text-2xl font-bold font-sub-heading">Express ERP</p>
-              <a
+              <Link
                 className="group flex items-center justify-center gap-4 rounded-lg px-5 py-3 transition-colors hover:bg-transparent "
-                href="#"
+                to="/projects/express"
               >
                 <span className="font-medium text-neongreen transition-colors group-hover:text-neongreen">
                   Find out more
@@ -88,16 +83,13 @@ function MyProjects() {
                     />
                   </svg>
                 </span>
-              </a>
+              </Link>
             </div>
-          </a>
+          </div>
         </div>
         {/* Project-3 */}
         <div className="bg-white/5 mt-5">
-          <a
-            href="#"
-            className="block rounded-lg  p-6 shadow-xs shadow-indigo-100"
-          >
+          <div className="block rounded-lg  p-6 shadow-xs shadow-indigo-100">
             <img
               alt="Project 3"
               src="https://i.ibb.co.com/PsNh0MmP/Recommend-me.png"
@@ -108,9 +100,9 @@ function MyProjects() {
               <p className="text-2xl font-bold font-sub-heading">
                 Recommend Me
               </p>
-              <a
+              <Link
                 className="group flex items-center justify-center gap-4 rounded-lg px-5 py-3 transition-colors hover:bg-transparent "
-                href="#"
+                to="/projects/recommend"
               >
                 <span className="font-medium text-neongreen transition-colors group-hover:text-neongreen">
                   Find out more
@@ -132,9 +124,9 @@ function MyProjects() {
                     />
                   </svg>
                 </span>
-              </a>
+              </Link>
             </div>
-          </a>
+          </div>
         </div>
       </div>
     </div>

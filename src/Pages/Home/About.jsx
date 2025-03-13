@@ -2,9 +2,9 @@ import React from "react";
 
 function About() {
   return (
-    <div>
-      <div className="bg-white/10 border border-neongreen rounded-4xl px-10 py-10">
-        <h2 className="font-heading font-semibold text-[50px] leading-tight pt-10 text-center ">
+    <div id="about">
+      <div className="bg-white/10 border border-neongreen rounded-4xl px-4 md:px-10 py-5 md:py-10">
+        <h2 className="font-heading font-semibold text-4xl md:text-[50px] leading-tight pt-10 text-center ">
           From health care to wordpress to{" "}
           <span className="text-neongreen ">React</span>
         </h2>

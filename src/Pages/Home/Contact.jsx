@@ -2,8 +2,8 @@ import React from "react";
 
 function Contact() {
   return (
-    <div>
-      <h2 className="font-heading font-semibold text-[50px] leading-tight pt-10 text-center mb-20">
+    <div className="mb-20" id="contact">
+      <h2 className="font-heading font-semibold text-[50px] leading-tight pt-10 text-center mb-10">
         Contact
         <span className="text-neongreen "> Me</span>
       </h2>
@@ -28,7 +28,7 @@ function Contact() {
               </div>
             </div>
 
-            <div className="rounded-lg  p-8 lg:col-span-3 lg:p-12">
+            <div className="rounded-lg lg:col-span-3 ">
               <form action="#" className="space-y-4">
                 <div>
                   <label className="sr-only" htmlFor="name">

@@ -8,18 +8,18 @@ import { RiFirebaseLine, RiNodejsLine } from "react-icons/ri";
 
 function Skills() {
   return (
-    <div>
+    <div id="skills">
       <h2 className="font-heading font-semibold text-[50px] leading-tight pt-10 text-center ">
         My
         <span className="text-neongreen "> Skills</span>
       </h2>
 
-      <div className="grid grid-cols-2 gap-5 my-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 my-10">
         <div className="bg-white/4 border border-neongreen rounded-4xl p-10">
           <h2 className="font-semibold text-center mb-2 text-3xl font-sub-heading">
             I am good at:{" "}
           </h2>
-          <div className="flex flex-col md:flex-row justify-center items-center gap-5">
+          <div className="flex flex-row justify-center items-center gap-5 flex-wrap">
             <FaReact size={40} />
             <IoLogoJavascript size={40} />
             <SiTailwindcss size={40} />
@@ -32,7 +32,7 @@ function Skills() {
           <h2 className="font-semibold text-center mb-2 text-3xl font-sub-heading">
             I am familiar with:{" "}
           </h2>
-          <div className="flex flex-col md:flex-row justify-center items-center gap-10">
+          <div className="flex flex-row flex-wrap justify-center items-center gap-5">
             <RiFirebaseLine size={40} />
             <RiNodejsLine size={40} />
             <SiExpress size={40} />
