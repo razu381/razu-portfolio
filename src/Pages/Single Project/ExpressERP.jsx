@@ -1,4 +1,7 @@
 import React from "react";
+import { FaReact } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { SiDaisyui, SiExpress, SiMongodb, SiTailwindcss } from "react-icons/si";
 
 function ExpressERP() {
   return (
@@ -11,12 +14,20 @@ function ExpressERP() {
                 Express ERP Solution
               </h2>
 
+              <div className="grid grid-cols-5 lg:grid-cols-10 justify-center items-center gap-1 mt-4">
+                <FaReact size={40} />
+                <IoLogoJavascript size={40} />
+                <SiTailwindcss size={40} />
+                <SiMongodb size={40} />
+                <SiExpress size={40} />
+              </div>
+
               <p className="mt-4 ">
                 An employee management system where employees can submit their
                 work, HR can monitor progress and request payments, and admins
                 can manage users and process salaries.
               </p>
-              <h3>
+              <h3 className="mt-4">
                 <span className="font-bold font-sub-heading">Live link: </span>{" "}
                 <br />
                 <a
@@ -26,7 +37,7 @@ function ExpressERP() {
                   https://employe-management-syste-75cf0.web.app/
                 </a>
               </h3>
-              <h3>
+              <h3 className="mt-4">
                 <span className="font-bold font-sub-heading">Github : </span>{" "}
                 <br />
                 <a
@@ -36,7 +47,7 @@ function ExpressERP() {
                   https://github.com/razu381/Express-ERP-Frontend
                 </a>
               </h3>
-              <h3>
+              <h3 className="mt-4">
                 <span className="font-bold font-sub-heading">
                   Challenges faced :{" "}
                 </span>
@@ -55,8 +66,7 @@ function ExpressERP() {
                 Resolved by storing the user's role in localStorage immediately
                 after signup, ensuring it was available for JWT generation.
               </p>
-              <br />
-              <h3>
+              <h3 className="mt-4">
                 <span className="font-bold font-sub-heading">Roadmap : </span>
               </h3>
               <ol>

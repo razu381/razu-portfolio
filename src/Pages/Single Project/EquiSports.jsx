@@ -1,4 +1,7 @@
 import React from "react";
+import { FaReact } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { SiExpress, SiMongodb, SiTailwindcss } from "react-icons/si";
 
 function EquiSports() {
   return (
@@ -8,47 +11,52 @@ function EquiSports() {
           <div className="md:col-span-3 pr-10">
             <div className="max-w-lg md:max-w-none">
               <h2 className="text-3xl font-bold font-heading  sm:text-3xl">
-                Alternative product Recommendation Site
+                Equi Sport - a sport product shop
               </h2>
-
+              <div className="grid grid-cols-5 lg:grid-cols-10 justify-center items-center gap-1 mt-4">
+                <FaReact size={40} />
+                <IoLogoJavascript size={40} />
+                <SiTailwindcss size={40} />
+                <SiMongodb size={40} />
+                <SiExpress size={40} />
+              </div>
               <p className="mt-4 ">
-                A recommendation platform where users can request alternative
-                product suggestions, and the community can provide personalized
-                recommendations.
+                Equi Sport is an online store where customers can browse and
+                purchase a variety of sports equipment. Key features include: -
+                Product viewing and addition to user accounts. - User-managed
+                product listings (add, delete). - Implementation of core
+                CRUD(Create, Read, Update, Delete) operations.
               </p>
-              <br />
-              <h3>
+              <h3 className="mt-4">
                 <span className="font-bold font-sub-heading">Live link: </span>{" "}
                 <br />
                 <a
-                  href="https://recommendme-35a11.web.app/"
+                  href="https://equi-sports-5d00a.web.app/"
                   className="text-blue-500"
                 >
-                  https://recommendme-35a11.web.app/
+                  https://equi-sports-5d00a.web.app/
                 </a>
               </h3>
-              <br />
-              <h3>
+              <h3 className="mt-4">
                 <span className="font-bold font-sub-heading">Github : </span>{" "}
                 <br />
                 <a
-                  href="https://github.com/razu381/Recommend-me-client"
+                  href="https://github.com/razu381/Equi-sports-frontend"
                   className="text-blue-500"
                 >
-                  https://github.com/razu381/Recommend-me-client
+                  https://github.com/razu381/Equi-sports-frontend
                 </a>
               </h3>
-              <br />
-              <h3>
+              <h3 className="mt-4">
                 <span className="font-bold font-sub-heading">Roadmap : </span>
               </h3>
               <ol>
                 <li>- Modernize the UI/UX design.</li>
+                <li>- Adding complete ecommerce system</li>
                 <li>
-                  - Paid recommendation system where experts can recommend
-                  people products.
+                  - National and international payment system eg.Bkash, Nagad,
+                  stripe, paypal
                 </li>
-                <li>- Star review system.</li>
               </ol>
             </div>
           </div>

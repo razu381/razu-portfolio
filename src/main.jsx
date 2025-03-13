@@ -5,7 +5,6 @@ import App from "./App.jsx";
 import { BrowserRouter, Route, Routes } from "react-router";
 import Home from "./Pages/Home/Home.jsx";
 import Root from "./Pages/Root.jsx";
-import Contact from "./Pages/Contact.jsx";
 import ExpressERP from "./Pages/Single Project/ExpressERP.jsx";
 import RecommendMe from "./Pages/Single Project/RecommendMe.jsx";
 import EquiSports from "./Pages/Single Project/EquiSports.jsx";
@@ -16,7 +15,6 @@ createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<Root />}>
           <Route index element={<Home />} />
-          <Route path="contact" element={<Contact />} />
         </Route>
         <Route path="/projects">
           <Route path="express" element={<ExpressERP />} />

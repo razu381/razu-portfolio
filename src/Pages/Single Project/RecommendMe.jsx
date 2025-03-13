@@ -1,4 +1,7 @@
 import React from "react";
+import { FaReact } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { SiExpress, SiMongodb, SiTailwindcss } from "react-icons/si";
 
 function RecommendMe() {
   return (
@@ -10,14 +13,20 @@ function RecommendMe() {
               <h2 className="text-3xl font-bold font-heading  sm:text-3xl">
                 Alternative product Recommendation Site
               </h2>
+              <div className="grid grid-cols-5 lg:grid-cols-10 justify-center items-center gap-1 mt-4">
+                <FaReact size={40} />
+                <IoLogoJavascript size={40} />
+                <SiTailwindcss size={40} />
+                <SiMongodb size={40} />
+                <SiExpress size={40} />
+              </div>
 
               <p className="mt-4 ">
                 A recommendation platform where users can request alternative
                 product suggestions, and the community can provide personalized
                 recommendations.
               </p>
-              <br />
-              <h3>
+              <h3 className="mt-4">
                 <span className="font-bold font-sub-heading">Live link: </span>{" "}
                 <br />
                 <a
@@ -27,8 +36,7 @@ function RecommendMe() {
                   https://recommendme-35a11.web.app/
                 </a>
               </h3>
-              <br />
-              <h3>
+              <h3 className="mt-4">
                 <span className="font-bold font-sub-heading">Github : </span>{" "}
                 <br />
                 <a
@@ -38,8 +46,7 @@ function RecommendMe() {
                   https://github.com/razu381/Recommend-me-client
                 </a>
               </h3>
-              <br />
-              <h3>
+              <h3 className="mt-4">
                 <span className="font-bold font-sub-heading">Roadmap : </span>
               </h3>
               <ol>
