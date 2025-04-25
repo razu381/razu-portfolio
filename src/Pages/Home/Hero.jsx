@@ -8,11 +8,11 @@ function Hero() {
       <h2 className="font-heading font-semibold text-[50px] lg:text-[100px] lg:leading-24 pt-10 text-center uppercase z-0">
         Hi, I am Shohidul Islam <span className="text-neongreen ">Razu</span>
       </h2>
-      <div className="grid grid-cols-12 gap-2">
+      <div className="grid grid-cols-12 gap-2 min-h-auto md:min-h-[600px]">
         <div className="hidden col-span-3 md:flex justify-center items-center">
           <div className="-rotate-90 ">
             <h2 className=" font-sub-heading font-extrabold text-[70px] uppercase opacity-60 mx-20">
-              <span className="text-neongreen ">FrontEnd </span>
+              <span className="text-neongreen ">Full Stack </span>
               Developer
             </h2>
           </div>

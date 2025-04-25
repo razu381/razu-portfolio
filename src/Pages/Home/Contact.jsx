@@ -20,7 +20,7 @@ function Contact() {
                   <b>Phone: </b> +8801317622631
                 </p>
                 <p>
-                  <b>Email: </b> sirazu52@gmail.com
+                  <b>Email: </b> contact@razu.dev
                 </p>
                 <p>
                   <b>Phone: </b> +8801317622631
